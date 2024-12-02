@@ -1,1813 +1,587 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
-  <meta>
-    <title>test.gexf</title>
-    <authors>NetworkX 3.4.2</authors>
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-12-03">
+    <creator>NetworkX 3.4.2</creator>
   </meta>
-  <graph defaultedgetype="undirected">
-    <attributes class="node">
-      <attribute id="Community_mod" title="Community_mod" type="integer"/>
-      <attribute id="rawSize" title="rawSize" type="double"/>
-      <attribute id="image" title="image" type="string"/>
-    </attributes>
-    <attributes class="edge">
-      <attribute id="rawWeight" title="rawWeight" type="integer"/>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="Community_mod" type="long" />
     </attributes>
     <nodes>
       <node id="AGENT AMDURSKY" label="AGENT AMDURSKY">
         <attvalues>
-          <attvalue for="Community_mod" value="3"/>
-          <attvalue for="rawSize" value="4"/>
-          <attvalue for="image" value="3"/>
+          <attvalue for="0" value="3" />
         </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-        <viz:size value="4"/>
-        <viz:position x="51.47989273071289" y="-115.27503204345703"/>
       </node>
       <node id="AMDURSKY" label="AMDURSKY">
         <attvalues>
-          <attvalue for="Community_mod" value="3"/>
-          <attvalue for="rawSize" value="4"/>
-          <attvalue for="image" value="3"/>
+          <attvalue for="0" value="3" />
         </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-        <viz:size value="4"/>
-        <viz:position x="27.04463768005371" y="-109.15695190429688"/>
       </node>
       <node id="ASHLEY" label="ASHLEY">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="29.23073959350586" y="90.40769958496094"/>
       </node>
       <node id="AUCTIONEER" label="AUCTIONEER">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="29.23073959350586" y="90.40769958496094"/>
       </node>
       <node id="BARTENDER" label="BARTENDER">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-106.54273986816406" y="-11.390950202941895"/>
       </node>
       <node id="BELLMAN" label="BELLMAN">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="29.23073959350586" y="90.40769958496094"/>
       </node>
       <node id="BRENDA" label="BRENDA">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="59.410499572753906" y="54.28180694580078"/>
       </node>
       <node id="CAROL" label="CAROL">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="86.54924011230469" y="87.83586883544922"/>
       </node>
       <node id="CO-PILOT" label="CO-PILOT">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="19.571502685546875" y="123.98548889160156"/>
       </node>
       <node id="COMPANY" label="COMPANY">
         <attvalues>
-          <attvalue for="Community_mod" value="4"/>
-          <attvalue for="rawSize" value="4.333333333333333"/>
-          <attvalue for="image" value="4"/>
+          <attvalue for="0" value="4" />
         </attvalues>
-        <viz:color r="218" g="234" b="200"/>
-        <viz:size value="4.333333333333333"/>
-        <viz:position x="-122.84139251708984" y="43.737281799316406"/>
       </node>
       <node id="DARCY" label="DARCY">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-107.9157485961914" y="-68.35774993896484"/>
       </node>
       <node id="DEBBIE ZANE" label="DEBBIE ZANE">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="-5.797148704528809" y="-56.29746627807617"/>
       </node>
       <node id="DETECTIVE #1" label="DETECTIVE #1">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-68.51786041259766" y="-11.098386764526367"/>
       </node>
       <node id="DETECTIVE #2" label="DETECTIVE #2">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-82.2966537475586" y="-14.406320571899414"/>
       </node>
       <node id="DIRECTOR MARSH" label="DIRECTOR MARSH">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="122.37109375" y="-29.81486701965332"/>
       </node>
       <node id="DOCTOR ASHLAND" label="DOCTOR ASHLAND">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="56.411197662353516" y="86.6029052734375"/>
       </node>
       <node id="DOCTOR HOLLIS" label="DOCTOR HOLLIS">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="65.49519348144531" y="101.1875991821289"/>
       </node>
       <node id="FBI AGENT" label="FBI AGENT">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="124.23780059814453" y="13.636509895324707"/>
       </node>
       <node id="FBI DIRECTOR MARSH" label="FBI DIRECTOR MARSH">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="92.94113159179688" y="7.619594573974609"/>
       </node>
       <node id="FI" label="FI">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-13.16185188293457" y="-33.328948974609375"/>
       </node>
       <node id="FOX" label="FOX">
         <attvalues>
-          <attvalue for="Community_mod" value="3"/>
-          <attvalue for="rawSize" value="4"/>
-          <attvalue for="image" value="3"/>
+          <attvalue for="0" value="3" />
         </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-        <viz:size value="4"/>
-        <viz:position x="45.80623245239258" y="-85.52867126464844"/>
       </node>
       <node id="FRAN" label="FRAN">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-23.642608642578125" y="-90.87926483154297"/>
       </node>
       <node id="FRANK" label="FRANK">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-12.208911895751953" y="31.47487449645996"/>
       </node>
       <node id="FRANK S" label="FRANK S">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-85.51866149902344" y="6.583548545837402"/>
       </node>
       <node id="FRANK SR" label="FRANK SR">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-78.63424682617188" y="-49.832950592041016"/>
       </node>
       <node id="GIRL" label="GIRL">
         <attvalues>
-          <attvalue for="Community_mod" value="5"/>
-          <attvalue for="rawSize" value="4.666666666666666"/>
-          <attvalue for="image" value="5"/>
+          <attvalue for="0" value="5" />
         </attvalues>
-        <viz:color r="182" g="212" b="210"/>
-        <viz:size value="4.666666666666666"/>
-        <viz:position x="-74.38307189941406" y="-99.23965454101562"/>
       </node>
       <node id="GRANGER" label="GRANGER">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-69.10333251953125" y="62.623451232910156"/>
       </node>
       <node id="II" label="II">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="89.9770278930664" y="46.46531677246094"/>
       </node>
       <node id="III" label="III">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="117.43238067626953" y="30.701427459716797"/>
       </node>
       <node id="INSIDE THE CELL" label="INSIDE THE CELL">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="63.2673225402832" y="22.053747177124023"/>
       </node>
       <node id="JACK WRIGHT" label="JACK WRIGHT">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-49.10518264770508" y="-71.45137786865234"/>
       </node>
       <node id="JOANNA" label="JOANNA">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-50.33955764770508" y="82.6544189453125"/>
       </node>
       <node id="JOE" label="JOE">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="48.60300064086914" y="7.600762844085693"/>
       </node>
       <node id="JOE SHA" label="JOE SHA">
         <attvalues>
-          <attvalue for="Community_mod" value="3"/>
-          <attvalue for="rawSize" value="4"/>
-          <attvalue for="image" value="3"/>
+          <attvalue for="0" value="3" />
         </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-        <viz:size value="4"/>
-        <viz:position x="79.68993377685547" y="-83.93045806884766"/>
       </node>
       <node id="JOE SHAYE" label="JOE SHAYE">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="68.49506378173828" y="-33.92168426513672"/>
       </node>
       <node id="JOE SHAYS" label="JOE SHAYS">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="21.547035217285156" y="-51.13766098022461"/>
       </node>
       <node id="JOE SHP_YE" label="JOE SHP_YE">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="17.62662696838379" y="-32.812339782714844"/>
       </node>
       <node id="JUDGE" label="JUDGE">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-50.33955764770508" y="82.6544189453125"/>
       </node>
       <node id="JUDY" label="JUDY">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-83.70501708984375" y="40.10361862182617"/>
       </node>
       <node id="KID" label="KID">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="108.20935821533203" y="48.247249603271484"/>
       </node>
       <node id="LANDLORD" label="LANDLORD">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="113.10871124267578" y="-46.282745361328125"/>
       </node>
       <node id="LOAN OFFICER" label="LOAN OFFICER">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-41.0651741027832" y="-105.096435546875"/>
       </node>
       <node id="LUCY" label="LUCY">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="3.10776686668396" y="94.53720092773438"/>
       </node>
       <node id="MACHINE" label="MACHINE">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="6.5377678871154785" y="111.60758972167969"/>
       </node>
       <node id="MAN #1" label="MAN #1">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-114.71814727783203" y="11.401337623596191"/>
       </node>
       <node id="MAN #2" label="MAN #2">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-125.27201843261719" y="-8.358240127563477"/>
       </node>
       <node id="MANAGER" label="MANAGER">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-11.163771629333496" y="125.13681030273438"/>
       </node>
       <node id="MARCEL" label="MARCEL">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-30.36086654663086" y="117.71123504638672"/>
       </node>
       <node id="MARCI" label="MARCI">
         <attvalues>
-          <attvalue for="Community_mod" value="6"/>
-          <attvalue for="rawSize" value="5"/>
-          <attvalue for="image" value="6"/>
+          <attvalue for="0" value="6" />
         </attvalues>
-        <viz:color r="145" g="191" b="219"/>
-        <viz:size value="5"/>
-        <viz:position x="-79.5675048828125" y="86.99153137207031"/>
       </node>
       <node id="MONICA" label="MONICA">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-83.70501708984375" y="40.10361862182617"/>
       </node>
       <node id="MONIQUE" label="MONIQUE">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-25.123220443725586" y="99.81548309326172"/>
       </node>
       <node id="MOTEL OWNER" label="MOTEL OWNER">
         <attvalues>
-          <attvalue for="Community_mod" value="3"/>
-          <attvalue for="rawSize" value="4"/>
-          <attvalue for="image" value="3"/>
+          <attvalue for="0" value="3" />
         </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-        <viz:size value="4"/>
-        <viz:position x="72.40231323242188" y="-101.90984344482422"/>
       </node>
       <node id="MULLIGAN" label="MULLIGAN">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="33.86696243286133" y="67.55123138427734"/>
       </node>
       <node id="NEW ACCOUNTS MANAGER" label="NEW ACCOUNTS MANAGER">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-83.70501708984375" y="40.10361862182617"/>
       </node>
       <node id="NEWSCASTER" label="NEWSCASTER">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-117.16143798828125" y="-32.16413116455078"/>
       </node>
       <node id="OLIVER" label="OLIVER">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="111.31088256835938" y="-59.185462951660156"/>
       </node>
       <node id="PAN AM OPERATOR" label="PAN AM OPERATOR">
         <attvalues>
-          <attvalue for="Community_mod" value="4"/>
-          <attvalue for="rawSize" value="4.333333333333333"/>
-          <attvalue for="image" value="4"/>
+          <attvalue for="0" value="4" />
         </attvalues>
-        <viz:color r="218" g="234" b="200"/>
-        <viz:size value="4.333333333333333"/>
-        <viz:position x="-103.4524154663086" y="66.11298370361328"/>
       </node>
       <node id="PAPPA" label="PAPPA">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-83.6512222290039" y="66.29493713378906"/>
       </node>
       <node id="PAULA" label="PAULA">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-36.60600662231445" y="-50.966983795166016"/>
       </node>
       <node id="PILOT" label="PILOT">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="34.52138900756836" y="120.1324234008789"/>
       </node>
       <node id="POLAROID SALESMAN" label="POLAROID SALESMAN">
         <attvalues>
-          <attvalue for="Community_mod" value="6"/>
-          <attvalue for="rawSize" value="5"/>
-          <attvalue for="image" value="6"/>
+          <attvalue for="0" value="6" />
         </attvalues>
-        <viz:color r="145" g="191" b="219"/>
-        <viz:size value="5"/>
-        <viz:position x="-75.31346893310547" y="103.4522933959961"/>
       </node>
       <node id="PRINCIPAL EVANS" label="PRINCIPAL EVANS">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-88.02593231201172" y="-81.13191986083984"/>
       </node>
       <node id="PRINT SHOP OWNER" label="PRINT SHOP OWNER">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-25.354522705078125" y="-113.55147552490234"/>
       </node>
       <node id="PURCHASING SUPERVISOR" label="PURCHASING SUPERVISOR">
         <attvalues>
-          <attvalue for="Community_mod" value="4"/>
-          <attvalue for="rawSize" value="4.333333333333333"/>
-          <attvalue for="image" value="4"/>
+          <attvalue for="0" value="4" />
         </attvalues>
-        <viz:color r="218" g="234" b="200"/>
-        <viz:size value="4.333333333333333"/>
-        <viz:position x="-112.0448226928711" y="52.380001068115234"/>
       </node>
       <node id="ROBERT" label="ROBERT">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="94.38065338134766" y="71.53430938720703"/>
       </node>
       <node id="ROSS" label="ROSS">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-10.211617469787598" y="111.84243774414062"/>
       </node>
       <node id="SALESMAN" label="SALESMAN">
         <attvalues>
-          <attvalue for="Community_mod" value="3"/>
-          <attvalue for="rawSize" value="4"/>
-          <attvalue for="image" value="3"/>
+          <attvalue for="0" value="3" />
         </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-        <viz:size value="4"/>
-        <viz:position x="-2.4408349990844727" y="-108.45594024658203"/>
       </node>
       <node id="SCHOOL ADMINISTRATOR" label="SCHOOL ADMINISTRATOR">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-50.33955764770508" y="82.6544189453125"/>
       </node>
       <node id="SECRETARY" label="SECRETARY">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="102.37855529785156" y="-69.18502044677734"/>
       </node>
       <node id="SECURITY GUARD" label="SECURITY GUARD">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-71.59591674804688" y="18.36781883239746"/>
       </node>
       <node id="SHAYE" label="SHAYE">
         <attvalues>
-          <attvalue for="Community_mod" value="3"/>
-          <attvalue for="rawSize" value="4"/>
-          <attvalue for="image" value="3"/>
+          <attvalue for="0" value="3" />
         </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-        <viz:size value="4"/>
-        <viz:position x="10.796876907348633" y="-79.48023986816406"/>
       </node>
       <node id="SMASH CUT" label="SMASH CUT">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="77.38528442382812" y="25.54136848449707"/>
       </node>
       <node id="SPECIAL AGENT WILKES" label="SPECIAL AGENT WILKES">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="115.3281478881836" y="-8.302793502807617"/>
       </node>
       <node id="STUDENT" label="STUDENT">
         <attvalues>
-          <attvalue for="Community_mod" value="5"/>
-          <attvalue for="rawSize" value="4.666666666666666"/>
-          <attvalue for="image" value="5"/>
+          <attvalue for="0" value="5" />
         </attvalues>
-        <viz:color r="182" g="212" b="210"/>
-        <viz:size value="4.666666666666666"/>
-        <viz:position x="-59.78023910522461" y="-94.01118469238281"/>
       </node>
       <node id="TEACHER" label="TEACHER">
         <attvalues>
-          <attvalue for="Community_mod" value="5"/>
-          <attvalue for="rawSize" value="4.666666666666666"/>
-          <attvalue for="image" value="5"/>
+          <attvalue for="0" value="5" />
         </attvalues>
-        <viz:color r="182" g="212" b="210"/>
-        <viz:size value="4.666666666666666"/>
-        <viz:position x="-59.44901657104492" y="-109.9293212890625"/>
       </node>
       <node id="TICKET AGENT" label="TICKET AGENT">
         <attvalues>
-          <attvalue for="Community_mod" value="6"/>
-          <attvalue for="rawSize" value="5"/>
-          <attvalue for="image" value="6"/>
+          <attvalue for="0" value="6" />
         </attvalues>
-        <viz:color r="145" g="191" b="219"/>
-        <viz:size value="5"/>
-        <viz:position x="-57.17544937133789" y="107.47899627685547"/>
       </node>
       <node id="TICKET CLERK" label="TICKET CLERK">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-83.70501708984375" y="40.10361862182617"/>
       </node>
       <node id="TWA PILOT" label="TWA PILOT">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="47.15980529785156" y="112.90525817871094"/>
       </node>
       <node id="WAITER" label="WAITER">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-50.33955764770508" y="82.6544189453125"/>
       </node>
       <node id="WOMAN" label="WOMAN">
         <attvalues>
-          <attvalue for="Community_mod" value="2"/>
-          <attvalue for="rawSize" value="3.6666666666666665"/>
-          <attvalue for="image" value="2"/>
+          <attvalue for="0" value="2" />
         </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-        <viz:size value="3.6666666666666665"/>
-        <viz:position x="-52.39569854736328" y="-25.0998592376709"/>
       </node>
       <node id="WOMAN #2" label="WOMAN #2">
         <attvalues>
-          <attvalue for="Community_mod" value="0"/>
-          <attvalue for="rawSize" value="3"/>
-          <attvalue for="image" value="0"/>
+          <attvalue for="0" value="0" />
         </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-        <viz:size value="3"/>
-        <viz:position x="-83.70501708984375" y="40.10361862182617"/>
       </node>
       <node id="YOUNG DOCTOR" label="YOUNG DOCTOR">
         <attvalues>
-          <attvalue for="Community_mod" value="1"/>
-          <attvalue for="rawSize" value="3.3333333333333335"/>
-          <attvalue for="image" value="1"/>
+          <attvalue for="0" value="1" />
         </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-        <viz:size value="3.3333333333333335"/>
-        <viz:position x="70.18212127685547" y="71.97247314453125"/>
       </node>
     </nodes>
     <edges>
-      <edge id="geid_342_0" source="AGENT AMDURSKY" target="AMDURSKY" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_1" source="AGENT AMDURSKY" target="FOX" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_2" source="AGENT AMDURSKY" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_3" source="AMDURSKY" target="FOX" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_4" source="AMDURSKY" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_5" source="AMDURSKY" target="JOE SHA" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_6" source="AMDURSKY" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_7" source="AMDURSKY" target="MOTEL OWNER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_8" source="AMDURSKY" target="SALESMAN" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_9" source="AMDURSKY" target="SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_10" source="ASHLEY" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_11" source="AUCTIONEER" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_12" source="BARTENDER" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_13" source="BARTENDER" target="FRANK SR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_14" source="BARTENDER" target="MAN #1" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_15" source="BARTENDER" target="MAN #2" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_16" source="BARTENDER" target="NEWSCASTER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_17" source="BELLMAN" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_18" source="BRENDA" target="DOCTOR ASHLAND" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_19" source="BRENDA" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_20" source="BRENDA" target="II" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_21" source="BRENDA" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_22" source="BRENDA" target="YOUNG DOCTOR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_23" source="CAROL" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_24" source="CAROL" target="ROBERT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_25" source="CO-PILOT" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_26" source="CO-PILOT" target="PILOT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_27" source="COMPANY" target="PURCHASING SUPERVISOR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="218" g="234" b="200"/>
-      </edge>
-      <edge id="geid_342_28" source="DARCY" target="FRANK SR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_29" source="DEBBIE ZANE" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_30" source="DEBBIE ZANE" target="FRANK SR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_31" source="DEBBIE ZANE" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_32" source="DEBBIE ZANE" target="JOE SHP_YE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_33" source="DETECTIVE #1" target="DETECTIVE #2" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_34" source="DETECTIVE #1" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_35" source="DETECTIVE #1" target="FRANK SR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_36" source="DETECTIVE #2" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_37" source="DETECTIVE #2" target="FRANK SR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_38" source="DIRECTOR MARSH" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_39" source="DIRECTOR MARSH" target="SPECIAL AGENT WILKES" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_40" source="DOCTOR ASHLAND" target="DOCTOR HOLLIS" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_41" source="DOCTOR ASHLAND" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_42" source="DOCTOR HOLLIS" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_43" source="FBI AGENT" target="III" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_44" source="FBI AGENT" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_45" source="FBI AGENT" target="SPECIAL AGENT WILKES" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_46" source="FBI DIRECTOR MARSH" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_47" source="FBI DIRECTOR MARSH" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_48" source="FBI DIRECTOR MARSH" target="SPECIAL AGENT WILKES" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_49" source="FI" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_50" source="FI" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_51" source="FI" target="PAULA" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_52" source="FOX" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_53" source="FOX" target="JOE SHA" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_54" source="FOX" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_55" source="FOX" target="MOTEL OWNER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_56" source="FOX" target="SALESMAN" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_57" source="FOX" target="SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_58" source="FRAN" target="FRANK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_59" source="FRAN" target="FRANK SR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_60" source="FRAN" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_61" source="FRAN" target="LOAN OFFICER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_62" source="FRAN" target="PRINT SHOP OWNER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_63" source="FRAN" target="SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_64" source="FRANK" target="FRANK S" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_65" source="FRANK" target="FRANK SR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_66" source="FRANK" target="GIRL" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="182" g="212" b="210"/>
-      </edge>
-      <edge id="geid_342_67" source="FRANK" target="GRANGER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_68" source="FRANK" target="II" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_69" source="FRANK" target="INSIDE THE CELL" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_70" source="FRANK" target="JACK WRIGHT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_71" source="FRANK" target="JOANNA" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_72" source="FRANK" target="JOE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_73" source="FRANK" target="JOE SHA" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_74" source="FRANK" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_75" source="FRANK" target="JOE SHAYS" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_76" source="FRANK" target="JOE SHP_YE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_77" source="FRANK" target="JUDGE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_78" source="FRANK" target="JUDY" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_79" source="FRANK" target="LUCY" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_80" source="FRANK" target="MACHINE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_81" source="FRANK" target="MAN #1" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_82" source="FRANK" target="MAN #2" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_83" source="FRANK" target="MANAGER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_84" source="FRANK" target="MARCEL" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_85" source="FRANK" target="MARCI" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="145" g="191" b="219"/>
-      </edge>
-      <edge id="geid_342_86" source="FRANK" target="MONICA" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_87" source="FRANK" target="MONIQUE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_88" source="FRANK" target="MULLIGAN" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_89" source="FRANK" target="NEW ACCOUNTS MANAGER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_90" source="FRANK" target="NEWSCASTER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_91" source="FRANK" target="PAN AM OPERATOR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="218" g="234" b="200"/>
-      </edge>
-      <edge id="geid_342_92" source="FRANK" target="PAPPA" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_93" source="FRANK" target="PAULA" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_94" source="FRANK" target="PILOT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_95" source="FRANK" target="POLAROID SALESMAN" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="145" g="191" b="219"/>
-      </edge>
-      <edge id="geid_342_96" source="FRANK" target="PRINT SHOP OWNER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_97" source="FRANK" target="PURCHASING SUPERVISOR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="218" g="234" b="200"/>
-      </edge>
-      <edge id="geid_342_98" source="FRANK" target="ROBERT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_99" source="FRANK" target="ROSS" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_100" source="FRANK" target="SALESMAN" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_101" source="FRANK" target="SCHOOL ADMINISTRATOR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_102" source="FRANK" target="SECURITY GUARD" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_103" source="FRANK" target="SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_104" source="FRANK" target="SMASH CUT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_105" source="FRANK" target="STUDENT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="182" g="212" b="210"/>
-      </edge>
-      <edge id="geid_342_106" source="FRANK" target="TEACHER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="182" g="212" b="210"/>
-      </edge>
-      <edge id="geid_342_107" source="FRANK" target="TICKET AGENT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="145" g="191" b="219"/>
-      </edge>
-      <edge id="geid_342_108" source="FRANK" target="TICKET CLERK" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_109" source="FRANK" target="TWA PILOT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_110" source="FRANK" target="WAITER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_111" source="FRANK" target="WOMAN" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_112" source="FRANK" target="WOMAN #2" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_113" source="FRANK" target="YOUNG DOCTOR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_114" source="FRANK S" target="FRANK SR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_115" source="FRANK SR" target="JACK WRIGHT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_116" source="FRANK SR" target="LOAN OFFICER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_117" source="FRANK SR" target="MAN #1" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_118" source="FRANK SR" target="MAN #2" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_119" source="FRANK SR" target="NEWSCASTER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_120" source="FRANK SR" target="PAULA" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_121" source="FRANK SR" target="PRINCIPAL EVANS" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_122" source="FRANK SR" target="SALESMAN" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_123" source="FRANK SR" target="WOMAN" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_124" source="GIRL" target="STUDENT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="182" g="212" b="210"/>
-      </edge>
-      <edge id="geid_342_125" source="GIRL" target="TEACHER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="182" g="212" b="210"/>
-      </edge>
-      <edge id="geid_342_126" source="II" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_127" source="II" target="KID" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_128" source="III" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_129" source="III" target="ROBERT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_130" source="III" target="SPECIAL AGENT WILKES" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_131" source="INSIDE THE CELL" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_132" source="INSIDE THE CELL" target="SMASH CUT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_133" source="JACK WRIGHT" target="PAULA" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_134" source="JOE" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_135" source="JOE SHA" target="JOE SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_136" source="JOE SHA" target="MOTEL OWNER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_137" source="JOE SHAYE" target="JOE SHAYS" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_138" source="JOE SHAYE" target="JOE SHP_YE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_139" source="JOE SHAYE" target="KID" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_140" source="JOE SHAYE" target="LANDLORD" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_141" source="JOE SHAYE" target="MOTEL OWNER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_142" source="JOE SHAYE" target="OLIVER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_143" source="JOE SHAYE" target="PAULA" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_144" source="JOE SHAYE" target="SALESMAN" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_145" source="JOE SHAYE" target="SECRETARY" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_146" source="JOE SHAYE" target="SHAYE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="255" g="255" b="191"/>
-      </edge>
-      <edge id="geid_342_147" source="JOE SHAYE" target="SMASH CUT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_148" source="JOE SHAYE" target="SPECIAL AGENT WILKES" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_149" source="JOE SHAYS" target="JOE SHP_YE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="253" g="179" b="123"/>
-      </edge>
-      <edge id="geid_342_150" source="LUCY" target="MACHINE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_151" source="MAN #1" target="MAN #2" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_152" source="MAN #1" target="NEWSCASTER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_153" source="MAN #2" target="NEWSCASTER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_154" source="MARCEL" target="MONIQUE" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_155" source="MARCI" target="POLAROID SALESMAN" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="145" g="191" b="219"/>
-      </edge>
-      <edge id="geid_342_156" source="MARCI" target="TICKET AGENT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="145" g="191" b="219"/>
-      </edge>
-      <edge id="geid_342_157" source="PAN AM OPERATOR" target="PURCHASING SUPERVISOR" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="218" g="234" b="200"/>
-      </edge>
-      <edge id="geid_342_158" source="PAULA" target="PRINCIPAL EVANS" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="254" g="217" b="157"/>
-      </edge>
-      <edge id="geid_342_159" source="PILOT" target="TWA PILOT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="252" g="141" b="89"/>
-      </edge>
-      <edge id="geid_342_160" source="POLAROID SALESMAN" target="TICKET AGENT" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="145" g="191" b="219"/>
-      </edge>
-      <edge id="geid_342_161" source="STUDENT" target="TEACHER" weight="0">
-        <attvalues>
-          <attvalue for="rawWeight" value="0"/>
-        </attvalues>
-        <viz:color r="182" g="212" b="210"/>
-      </edge>
+      <edge source="AGENT AMDURSKY" target="AMDURSKY" id="0" weight="1" />
+      <edge source="AGENT AMDURSKY" target="FOX" id="1" weight="1" />
+      <edge source="AGENT AMDURSKY" target="JOE SHAYE" id="2" weight="1" />
+      <edge source="AMDURSKY" target="FOX" id="3" weight="2" />
+      <edge source="AMDURSKY" target="FRANK" id="4" weight="1" />
+      <edge source="AMDURSKY" target="JOE SHA" id="5" weight="1" />
+      <edge source="AMDURSKY" target="JOE SHAYE" id="6" weight="3" />
+      <edge source="AMDURSKY" target="MOTEL OWNER" id="7" weight="1" />
+      <edge source="AMDURSKY" target="SALESMAN" id="8" weight="1" />
+      <edge source="AMDURSKY" target="SHAYE" id="9" weight="1" />
+      <edge source="ASHLEY" target="FRANK" id="10" weight="1" />
+      <edge source="AUCTIONEER" target="FRANK" id="11" weight="1" />
+      <edge source="BARTENDER" target="FRANK" id="12" weight="1" />
+      <edge source="BARTENDER" target="FRANK SR" id="13" weight="1" />
+      <edge source="BARTENDER" target="MAN #1" id="14" weight="1" />
+      <edge source="BARTENDER" target="MAN #2" id="15" weight="1" />
+      <edge source="BARTENDER" target="NEWSCASTER" id="16" weight="1" />
+      <edge source="BELLMAN" target="FRANK" id="17" weight="1" />
+      <edge source="BRENDA" target="DOCTOR ASHLAND" id="18" weight="1" />
+      <edge source="BRENDA" target="FRANK" id="19" weight="4" />
+      <edge source="BRENDA" target="II" id="20" weight="1" />
+      <edge source="BRENDA" target="JOE SHAYE" id="21" weight="1" />
+      <edge source="BRENDA" target="YOUNG DOCTOR" id="22" weight="1" />
+      <edge source="CAROL" target="FRANK" id="23" weight="1" />
+      <edge source="CAROL" target="ROBERT" id="24" weight="1" />
+      <edge source="CO-PILOT" target="FRANK" id="25" weight="1" />
+      <edge source="CO-PILOT" target="PILOT" id="26" weight="1" />
+      <edge source="COMPANY" target="PURCHASING SUPERVISOR" id="27" weight="1" />
+      <edge source="DARCY" target="FRANK SR" id="28" weight="1" />
+      <edge source="DEBBIE ZANE" target="FRANK" id="29" weight="1" />
+      <edge source="DEBBIE ZANE" target="FRANK SR" id="30" weight="1" />
+      <edge source="DEBBIE ZANE" target="JOE SHAYE" id="31" weight="1" />
+      <edge source="DEBBIE ZANE" target="JOE SHP_YE" id="32" weight="1" />
+      <edge source="DETECTIVE #1" target="DETECTIVE #2" id="33" weight="1" />
+      <edge source="DETECTIVE #1" target="FRANK" id="34" weight="1" />
+      <edge source="DETECTIVE #1" target="FRANK SR" id="35" weight="1" />
+      <edge source="DETECTIVE #2" target="FRANK" id="36" weight="1" />
+      <edge source="DETECTIVE #2" target="FRANK SR" id="37" weight="1" />
+      <edge source="DIRECTOR MARSH" target="JOE SHAYE" id="38" weight="1" />
+      <edge source="DIRECTOR MARSH" target="SPECIAL AGENT WILKES" id="39" weight="1" />
+      <edge source="DOCTOR ASHLAND" target="DOCTOR HOLLIS" id="40" weight="1" />
+      <edge source="DOCTOR ASHLAND" target="FRANK" id="41" weight="2" />
+      <edge source="DOCTOR HOLLIS" target="FRANK" id="42" weight="1" />
+      <edge source="FBI AGENT" target="III" id="43" weight="1" />
+      <edge source="FBI AGENT" target="JOE SHAYE" id="44" weight="1" />
+      <edge source="FBI AGENT" target="SPECIAL AGENT WILKES" id="45" weight="1" />
+      <edge source="FBI DIRECTOR MARSH" target="FRANK" id="46" weight="1" />
+      <edge source="FBI DIRECTOR MARSH" target="JOE SHAYE" id="47" weight="2" />
+      <edge source="FBI DIRECTOR MARSH" target="SPECIAL AGENT WILKES" id="48" weight="1" />
+      <edge source="FI" target="FRANK" id="49" weight="2" />
+      <edge source="FI" target="JOE SHAYE" id="50" weight="1" />
+      <edge source="FI" target="PAULA" id="51" weight="1" />
+      <edge source="FOX" target="FRANK" id="52" weight="1" />
+      <edge source="FOX" target="JOE SHA" id="53" weight="1" />
+      <edge source="FOX" target="JOE SHAYE" id="54" weight="3" />
+      <edge source="FOX" target="MOTEL OWNER" id="55" weight="1" />
+      <edge source="FOX" target="SALESMAN" id="56" weight="1" />
+      <edge source="FOX" target="SHAYE" id="57" weight="1" />
+      <edge source="FRAN" target="FRANK" id="58" weight="1" />
+      <edge source="FRAN" target="FRANK SR" id="59" weight="1" />
+      <edge source="FRAN" target="JOE SHAYE" id="60" weight="1" />
+      <edge source="FRAN" target="LOAN OFFICER" id="61" weight="1" />
+      <edge source="FRAN" target="PRINT SHOP OWNER" id="62" weight="1" />
+      <edge source="FRAN" target="SHAYE" id="63" weight="1" />
+      <edge source="FRANK" target="FRANK S" id="64" weight="1" />
+      <edge source="FRANK" target="FRANK SR" id="65" weight="5" />
+      <edge source="FRANK" target="GIRL" id="66" weight="1" />
+      <edge source="FRANK" target="GRANGER" id="67" weight="1" />
+      <edge source="FRANK" target="II" id="68" weight="1" />
+      <edge source="FRANK" target="INSIDE THE CELL" id="69" weight="1" />
+      <edge source="FRANK" target="JACK WRIGHT" id="70" weight="1" />
+      <edge source="FRANK" target="JOANNA" id="71" weight="1" />
+      <edge source="FRANK" target="JOE" id="72" weight="1" />
+      <edge source="FRANK" target="JOE SHA" id="73" weight="1" />
+      <edge source="FRANK" target="JOE SHAYE" id="74" weight="7" />
+      <edge source="FRANK" target="JOE SHAYS" id="75" weight="1" />
+      <edge source="FRANK" target="JOE SHP_YE" id="76" weight="2" />
+      <edge source="FRANK" target="JUDGE" id="77" weight="1" />
+      <edge source="FRANK" target="JUDY" id="78" weight="1" />
+      <edge source="FRANK" target="LUCY" id="79" weight="3" />
+      <edge source="FRANK" target="MACHINE" id="80" weight="1" />
+      <edge source="FRANK" target="MAN #1" id="81" weight="1" />
+      <edge source="FRANK" target="MAN #2" id="82" weight="1" />
+      <edge source="FRANK" target="MANAGER" id="83" weight="1" />
+      <edge source="FRANK" target="MARCEL" id="84" weight="1" />
+      <edge source="FRANK" target="MARCI" id="85" weight="2" />
+      <edge source="FRANK" target="MONICA" id="86" weight="1" />
+      <edge source="FRANK" target="MONIQUE" id="87" weight="3" />
+      <edge source="FRANK" target="MULLIGAN" id="88" weight="2" />
+      <edge source="FRANK" target="NEW ACCOUNTS MANAGER" id="89" weight="1" />
+      <edge source="FRANK" target="NEWSCASTER" id="90" weight="1" />
+      <edge source="FRANK" target="PAN AM OPERATOR" id="91" weight="1" />
+      <edge source="FRANK" target="PAPPA" id="92" weight="1" />
+      <edge source="FRANK" target="PAULA" id="93" weight="3" />
+      <edge source="FRANK" target="PILOT" id="94" weight="1" />
+      <edge source="FRANK" target="POLAROID SALESMAN" id="95" weight="1" />
+      <edge source="FRANK" target="PRINT SHOP OWNER" id="96" weight="1" />
+      <edge source="FRANK" target="PURCHASING SUPERVISOR" id="97" weight="1" />
+      <edge source="FRANK" target="ROBERT" id="98" weight="2" />
+      <edge source="FRANK" target="ROSS" id="99" weight="1" />
+      <edge source="FRANK" target="SALESMAN" id="100" weight="1" />
+      <edge source="FRANK" target="SCHOOL ADMINISTRATOR" id="101" weight="1" />
+      <edge source="FRANK" target="SECURITY GUARD" id="102" weight="1" />
+      <edge source="FRANK" target="SHAYE" id="103" weight="1" />
+      <edge source="FRANK" target="SMASH CUT" id="104" weight="1" />
+      <edge source="FRANK" target="STUDENT" id="105" weight="1" />
+      <edge source="FRANK" target="TEACHER" id="106" weight="1" />
+      <edge source="FRANK" target="TICKET AGENT" id="107" weight="2" />
+      <edge source="FRANK" target="TICKET CLERK" id="108" weight="1" />
+      <edge source="FRANK" target="TWA PILOT" id="109" weight="1" />
+      <edge source="FRANK" target="WAITER" id="110" weight="1" />
+      <edge source="FRANK" target="WOMAN" id="111" weight="1" />
+      <edge source="FRANK" target="WOMAN #2" id="112" weight="1" />
+      <edge source="FRANK" target="YOUNG DOCTOR" id="113" weight="1" />
+      <edge source="FRANK S" target="FRANK SR" id="114" weight="1" />
+      <edge source="FRANK SR" target="JACK WRIGHT" id="115" weight="1" />
+      <edge source="FRANK SR" target="LOAN OFFICER" id="116" weight="1" />
+      <edge source="FRANK SR" target="MAN #1" id="117" weight="1" />
+      <edge source="FRANK SR" target="MAN #2" id="118" weight="1" />
+      <edge source="FRANK SR" target="NEWSCASTER" id="119" weight="1" />
+      <edge source="FRANK SR" target="PAULA" id="120" weight="2" />
+      <edge source="FRANK SR" target="PRINCIPAL EVANS" id="121" weight="1" />
+      <edge source="FRANK SR" target="SALESMAN" id="122" weight="1" />
+      <edge source="FRANK SR" target="WOMAN" id="123" weight="1" />
+      <edge source="GIRL" target="STUDENT" id="124" weight="1" />
+      <edge source="GIRL" target="TEACHER" id="125" weight="1" />
+      <edge source="II" target="JOE SHAYE" id="126" weight="1" />
+      <edge source="II" target="KID" id="127" weight="1" />
+      <edge source="III" target="JOE SHAYE" id="128" weight="1" />
+      <edge source="III" target="ROBERT" id="129" weight="1" />
+      <edge source="III" target="SPECIAL AGENT WILKES" id="130" weight="1" />
+      <edge source="INSIDE THE CELL" target="JOE SHAYE" id="131" weight="1" />
+      <edge source="INSIDE THE CELL" target="SMASH CUT" id="132" weight="1" />
+      <edge source="JACK WRIGHT" target="PAULA" id="133" weight="1" />
+      <edge source="JOE" target="JOE SHAYE" id="134" weight="1" />
+      <edge source="JOE SHA" target="JOE SHAYE" id="135" weight="1" />
+      <edge source="JOE SHA" target="MOTEL OWNER" id="136" weight="1" />
+      <edge source="JOE SHAYE" target="JOE SHAYS" id="137" weight="1" />
+      <edge source="JOE SHAYE" target="JOE SHP_YE" id="138" weight="2" />
+      <edge source="JOE SHAYE" target="KID" id="139" weight="1" />
+      <edge source="JOE SHAYE" target="LANDLORD" id="140" weight="1" />
+      <edge source="JOE SHAYE" target="MOTEL OWNER" id="141" weight="1" />
+      <edge source="JOE SHAYE" target="OLIVER" id="142" weight="1" />
+      <edge source="JOE SHAYE" target="PAULA" id="143" weight="1" />
+      <edge source="JOE SHAYE" target="SALESMAN" id="144" weight="1" />
+      <edge source="JOE SHAYE" target="SECRETARY" id="145" weight="1" />
+      <edge source="JOE SHAYE" target="SHAYE" id="146" weight="2" />
+      <edge source="JOE SHAYE" target="SMASH CUT" id="147" weight="1" />
+      <edge source="JOE SHAYE" target="SPECIAL AGENT WILKES" id="148" weight="4" />
+      <edge source="JOE SHAYS" target="JOE SHP_YE" id="149" weight="1" />
+      <edge source="LUCY" target="MACHINE" id="150" weight="1" />
+      <edge source="MAN #1" target="MAN #2" id="151" weight="1" />
+      <edge source="MAN #1" target="NEWSCASTER" id="152" weight="1" />
+      <edge source="MAN #2" target="NEWSCASTER" id="153" weight="1" />
+      <edge source="MARCEL" target="MONIQUE" id="154" weight="1" />
+      <edge source="MARCI" target="POLAROID SALESMAN" id="155" weight="1" />
+      <edge source="MARCI" target="TICKET AGENT" id="156" weight="1" />
+      <edge source="PAN AM OPERATOR" target="PURCHASING SUPERVISOR" id="157" weight="1" />
+      <edge source="PAULA" target="PRINCIPAL EVANS" id="158" weight="1" />
+      <edge source="PILOT" target="TWA PILOT" id="159" weight="1" />
+      <edge source="POLAROID SALESMAN" target="TICKET AGENT" id="160" weight="1" />
+      <edge source="STUDENT" target="TEACHER" id="161" weight="1" />
     </edges>
   </graph>
 </gexf>
